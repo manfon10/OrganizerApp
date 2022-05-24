@@ -1,0 +1,41 @@
+.container_events {
+    text-align: center;
+    padding-top: 20px;
+    width: 300px;
+    background-color: #85C1E9;
+}
+
+.container_events > h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.container_events_asign {
+    border: 1px solid rgba(99, 99, 99, 0.2);
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    background-color: #D6EAF8;
+    color: #17202A;
+}
+
+.container_events_asign > p {
+    font-size: 15px;
+}
+
+.container_events_asign > button {
+    padding: 0 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container_events_asign > button:hover {
+    background-color: #1B4F72 ;
+    color: white;
+    transition: 1s;
+}

@@ -1,0 +1,28 @@
+.nav_app {
+    background-color: #21618C;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav_app > div > span {
+    font-weight: 900;
+}
+
+.nav_app > div > button {
+    padding: 0 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: #FADBD8;
+    color: #CB4335;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav_app > div > button:hover {
+    background-color: #CB4335;
+    color: #FADBD8;
+    transition: 0.5s;
+}
